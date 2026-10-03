@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zest Heaven | Fresh Juices, Shakes & Cold Coffee in Jhansi</title>
+    <meta name="description" content="Enjoy fresh juices, delicious shakes and refreshing cold coffee at Zest Heaven, in front of Law College, Bundelkhand University, Jhansi. LGBTQ+ friendly cafe!">
+    <meta name="keywords" content="Zest Heaven Jhansi, Juice shop in Jhansi, Shakes in Jhansi, Cold coffee in Jhansi, Juice near Bundelkhand University, Drinks near Law College Jhansi">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Zest Heaven - Fresh Sips. Delicious Moments.">
+    <meta property="og:description" content="Fresh juices, thick milkshakes & creamy cold coffee in front of Law College, Bundelkhand University, Jhansi.">
+    <meta property="og:type" content="website">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#FAF7F2',
+                        'cream-card': '#FFFFFF',
+                        'forest-dark': '#0F2E23',
+                        'forest-mid': '#174735',
+                        'lime-accent': '#2E7D32',
+                        'lime-bright': '#82C43C',
+                        'orange-fruit': '#FF7A00',
+                        'amber-fruit': '#FFB703',
+                        'charcoal': '#1C1917',
+                        'muted-gray': '#64748B'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif']
+                    },
+                    boxShadow: {
+                        'glass': '0 8px 32px 0 rgba(15, 46, 35, 0.08)',
+                        'soft': '0 10px 30px -5px rgba(0, 0, 0, 0.05)',
+                        'glow': '0 0 25px rgba(255, 122, 0, 0.25)'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts & FontAwesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Schema.org Structured Data (LocalBusiness) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "Zest Heaven",
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1200&q=80",
+      "@id": "https://zestheaven.com",
+      "url": "https://zestheaven.com",
+      "telephone": "+917339980606",
+      "priceRange": "₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "In front of Law College, Bundelkhand University",
+        "addressLocality": "Jhansi",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "284128",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.4578,
+        "longitude": 78.5398
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "09:00",
+        "closes": "22:00"
+      },
+      "servesCuisine": ["Juices", "Shakes", "Cold Coffee", "Beverages"],
+      "description": "Fresh fruit juices, creamy shakes and ice cold coffee in Jhansi."
+    }
+    </script>
+
+    <style>
+        body {
+            background-color: #FAF7F2;
+            color: #1C1917;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+        }
+
+        .glass-dark {
+            background: rgba(15, 46, 35, 0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-10px) rotate(1deg); }
+        }
+
+        .animate-float {
+            animation: float 5s ease-in-out infinite;
+        }
+
+        @keyframes pulse-soft {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.92; transform: scale(1.02); }
+        }
+
+        .animate-pulse-soft {
+            animation: pulse-soft 3s infinite ease-in-out;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #FAF7F2;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #174735;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #2E7D32;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-orange-fruit selection:text-white pb-20 md:pb-0">
+
+    <header class="sticky top-0 z-50 transition-all duration-300" id="main-header">
+        <nav class="glass-panel border-b border-stone-200/60 px-4 lg:px-8 py-3 transition-all duration-300" id="nav-container">
+            <div class="max-w-7xl mx-auto flex items-center justify-between">
+                <!-- Brand Logo -->
+                <a href="#home" class="flex items-center gap-2.5 group">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-forest-dark to-lime-accent flex items-center justify-center text-amber-fruit text-xl font-bold shadow-md transform group-hover:rotate-12 transition-transform duration-300">
+                        <i class="fa-solid font-bold text-lg text-white">Z</i>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-bold text-2xl tracking-tight text-forest-dark flex items-center gap-1 font-serif">
+                            Zest Heaven
+                            <span class="w-2 h-2 rounded-full bg-orange-fruit inline-block"></span>
+                        </span>
+                        <span class="text-[10px] tracking-widest uppercase font-semibold text-lime-accent -mt-1">Fresh & Refreshing</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <div class="hidden md:flex items-center space-x-8 font-medium text-stone-700">
+                    <a href="#home" class="hover:text-forest-dark transition-colors py-1 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-orange-fruit hover:after:w-full after:transition-all">Home</a>
+                    <a href="#about" class="hover:text-forest-dark transition-colors py-1 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-orange-fruit hover:after:w-full after:transition-all">About</a>
+                    <a href="#menu" class="hover:text-forest-dark transition-colors py-1 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-orange-fruit hover:after:w-full after:transition-all">Drinks Menu</a>
+                    <a href="#why-us" class="hover:text-forest-dark transition-colors py-1 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-orange-fruit hover:after:w-full after:transition-all">Why Us</a>
+                    <a href="#location" class="hover:text-forest-dark transition-colors py-1 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-orange-fruit hover:after:w-full after:transition-all">Location</a>
+                </div>
+
+                <!-- Header Actions & Mobile Menu Toggle -->
+                <div class="flex items-center gap-3">
+                    <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20juices,%20shakes%20and%20cold%20coffee." 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="hidden sm:inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-full font-semibold text-sm transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>WhatsApp Us</span>
+                    </a>
+
+                    <!-- Hamburger Mobile Button -->
+                    <button id="mobile-menu-btn" 
+                            aria-label="Toggle mobile menu" 
+                            class="md:hidden w-10 h-10 rounded-xl bg-stone-100 flex items-center justify-center text-forest-dark hover:bg-stone-200 transition-colors focus:outline-none">
+                        <i class="fa-solid fa-bars text-xl" id="menu-icon"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Nav Dropdown -->
+            <div id="mobile-menu" class="hidden md:hidden mt-3 pt-3 border-t border-stone-200/80 flex flex-col space-y-3 pb-2 transition-all">
+                <a href="#home" class="mobile-link text-stone-800 hover:text-forest-dark font-medium px-2 py-1.5 rounded-lg hover:bg-stone-100/60">Home</a>
+                <a href="#about" class="mobile-link text-stone-800 hover:text-forest-dark font-medium px-2 py-1.5 rounded-lg hover:bg-stone-100/60">About Us</a>
+                <a href="#menu" class="mobile-link text-stone-800 hover:text-forest-dark font-medium px-2 py-1.5 rounded-lg hover:bg-stone-100/60">Drinks Menu</a>
+                <a href="#why-us" class="mobile-link text-stone-800 hover:text-forest-dark font-medium px-2 py-1.5 rounded-lg hover:bg-stone-100/60">Why Visit Us</a>
+                <a href="#location" class="mobile-link text-stone-800 hover:text-forest-dark font-medium px-2 py-1.5 rounded-lg hover:bg-stone-100/60">Location & Contact</a>
+                
+                <div class="pt-2 flex flex-col gap-2">
+                    <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20juices,%20shakes%20and%20cold%20coffee." 
+                       target="_blank" 
+                       class="w-full py-2.5 bg-emerald-600 text-white rounded-xl font-semibold flex items-center justify-center gap-2 shadow-sm">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>Chat on WhatsApp</span>
+                    </a>
+                    <a href="tel:07339980606" 
+                       class="w-full py-2.5 bg-forest-dark text-white rounded-xl font-semibold flex items-center justify-center gap-2 shadow-sm">
+                        <i class="fa-solid fa-phone text-sm"></i>
+                        <span>Call 073399 80606</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="relative min-h-[90vh] flex items-center pt-8 pb-16 overflow-hidden">
+            <!-- Decorative Background Elements -->
+            <div class="absolute top-10 left-[-5%] w-72 h-72 bg-amber-200/40 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute bottom-10 right-[-5%] w-96 h-96 bg-emerald-200/30 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="max-w-7xl mx-auto px-4 lg:px-8 w-full relative z-10">
+                <div class="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                    
+                    <!-- Hero Content Left -->
+                    <div class="lg:col-span-7 space-y-6 text-left">
+                        <!-- Badge -->
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-forest-dark/5 border border-forest-dark/10 text-forest-dark text-xs sm:text-sm font-semibold tracking-wide">
+                            <span class="w-2 h-2 rounded-full bg-orange-fruit animate-ping"></span>
+                            <span>Jhansi's Favorite Refreshment Corner</span>
+                            <span class="text-xs">🌈 LGBTQ+ Friendly</span>
+                        </div>
+
+                        <!-- Main Headline -->
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-forest-dark font-serif tracking-tight leading-[1.15]">
+                            Fresh Sips. <br class="hidden sm:block"/>
+                            <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-fruit via-amber-fruit to-lime-accent">
+                                Delicious Moments.
+                            </span>
+                        </h1>
+
+                        <!-- Supporting Text -->
+                        <p class="text-lg sm:text-xl text-stone-600 max-w-xl font-normal leading-relaxed">
+                            Come have some great and delicious juices, shakes and cold coffee at Zest Heaven. Handcrafted fresh daily for every craving!
+                        </p>
+
+                        <!-- CTA Buttons -->
+                        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
+                            <a href="#menu" class="px-7 py-4 bg-forest-dark hover:bg-forest-mid text-white font-bold rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 text-center flex items-center justify-center gap-3 transform hover:-translate-y-1">
+                                <span class="text-xl">🍹</span>
+                                <span>Explore Our Drinks</span>
+                            </a>
+                            <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20juices,%20shakes%20and%20cold%20coffee." 
+                               target="_blank" 
+                               rel="noopener noreferrer" 
+                               class="px-7 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 text-center flex items-center justify-center gap-3 transform hover:-translate-y-1">
+                                <i class="fa-brands fa-whatsapp text-2xl"></i>
+                                <span>Chat on WhatsApp</span>
+                            </a>
+                        </div>
+
+                        <!-- Location Subline -->
+                        <div class="pt-4 flex items-center gap-2 text-stone-600 text-sm font-medium">
+                            <div class="w-8 h-8 rounded-full bg-stone-200/80 flex items-center justify-center text-forest-dark flex-shrink-0">
+                                <i class="fa-solid fa-location-dot text-orange-fruit"></i>
+                            </div>
+                            <span>📍 In front of Law College, Bundelkhand University, Jhansi</span>
+                        </div>
+                    </div>
+
+                    <!-- Hero Visual Right -->
+                    <div class="lg:col-span-5 relative">
+                        <div class="relative mx-auto max-w-md lg:max-w-none">
+                            <!-- Soft glow effect -->
+                            <div class="absolute -inset-1.5 bg-gradient-to-r from-orange-fruit to-lime-bright rounded-3xl blur-2xl opacity-30 animate-pulse-soft"></div>
+                            
+                            <!-- Hero Image Frame -->
+                            <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-stone-100">
+                                <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1200&q=80" 
+                                     alt="Fresh colorful fruit juices, thick shakes, and cold coffee on a café table at Zest Heaven" 
+                                     class="w-full h-[380px] sm:h-[460px] object-cover hover:scale-105 transition-transform duration-700 ease-out"
+                                     loading="eager">
+                                
+                                <!-- Floating Overlay Glass Badges -->
+                                <div class="absolute top-4 right-4 glass-panel px-3.5 py-2 rounded-2xl shadow-lg flex items-center gap-2.5 animate-float">
+                                    <span class="text-2xl">☕</span>
+                                    <div>
+                                        <p class="text-xs font-bold text-forest-dark">Creamy Cold Coffee</p>
+                                        <p class="text-[10px] text-stone-500 font-semibold">Chilled perfection</p>
+                                    </div>
+                                </div>
+
+                                <div class="absolute bottom-4 left-4 glass-panel px-4 py-2.5 rounded-2xl shadow-lg flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center text-white text-lg">
+                                        <i class="fa-solid fa-bolt"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs font-bold text-forest-dark">100% Fresh Fruits</p>
+                                        <p class="text-[10px] text-emerald-700 font-semibold">Made fresh to order</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 bg-stone-100/70 border-y border-stone-200/80">
+            <div class="max-w-7xl mx-auto px-4 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                    <span class="text-xs font-bold tracking-widest uppercase text-lime-accent bg-lime-accent/10 px-3.5 py-1.5 rounded-full inline-block">
+                        Our Story & Passion
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-forest-dark font-serif">
+                        Welcome to Zest Heaven
+                    </h2>
+                    <p class="text-stone-600 text-base sm:text-lg leading-relaxed">
+                        Looking for something fresh, delicious and refreshing? Zest Heaven brings you flavorful juices, creamy shakes and chilled cold coffee made for those moments when you simply want to relax and enjoy a great drink.
+                    </p>
+                </div>
+
+                <!-- Feature Cards Grid -->
+                <div class="grid md:grid-cols-3 gap-8">
+                    
+                    <!-- Card 1 -->
+                    <div class="bg-white p-8 rounded-3xl shadow-soft hover:shadow-xl transition-all duration-300 border border-stone-100 group hover:-translate-y-1">
+                        <div class="w-16 h-16 rounded-2xl bg-orange-fruit/10 text-orange-fruit flex items-center justify-center text-3xl mb-6 group-hover:bg-orange-fruit group-hover:text-white transition-all duration-300">
+                            🍊
+                        </div>
+                        <h3 class="text-xl font-bold text-forest-dark mb-2 font-serif">Fresh & Refreshing</h3>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            Fresh flavors made for every mood. Prepared with handpicked fruits and real ingredients for authentic taste in every sip.
+                        </p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white p-8 rounded-3xl shadow-soft hover:shadow-xl transition-all duration-300 border border-stone-100 group hover:-translate-y-1">
+                        <div class="w-16 h-16 rounded-2xl bg-forest-mid/10 text-forest-mid flex items-center justify-center text-3xl mb-6 group-hover:bg-forest-mid group-hover:text-white transition-all duration-300">
+                            🥤
+                        </div>
+                        <h3 class="text-xl font-bold text-forest-dark mb-2 font-serif">Delicious Drinks</h3>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            Juices, shakes and cold coffee you'll love. Rich, smooth, thick, and perfectly sweetened to your preference.
+                        </p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white p-8 rounded-3xl shadow-soft hover:shadow-xl transition-all duration-300 border border-stone-100 group hover:-translate-y-1">
+                        <div class="w-16 h-16 rounded-2xl bg-pink-500/10 text-pink-600 flex items-center justify-center text-3xl mb-6 group-hover:bg-pink-600 group-hover:text-white transition-all duration-300">
+                            ❤️
+                        </div>
+                        <h3 class="text-xl font-bold text-forest-dark mb-2 font-serif">Made for Everyone</h3>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            A welcoming, friendly and inclusive space for university students, local residents, and visitors alike.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Inclusion Tag -->
+                <div class="mt-12 text-center">
+                    <div class="inline-flex items-center gap-3 px-6 py-3 rounded-2xl bg-gradient-to-r from-purple-100 via-pink-100 to-amber-100 border border-pink-200 text-pink-900 font-semibold shadow-sm">
+                        <span class="text-2xl">🌈</span>
+                        <span>LGBTQ+ Friendly Space — All Are Welcome Here!</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="menu" class="py-20 bg-cream">
+            <div class="max-w-7xl mx-auto px-4 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto space-y-4 mb-12">
+                    <span class="text-xs font-bold tracking-widest uppercase text-orange-fruit bg-orange-fruit/10 px-3.5 py-1.5 rounded-full inline-block">
+                        Handcrafted Beverages
+                    </span>
+                    <h2 class="text-3xl sm:text-5xl font-extrabold text-forest-dark font-serif">
+                        Sip Something Delicious
+                    </h2>
+                    <p class="text-stone-600 text-base sm:text-lg">
+                        Select a category below to explore our menu. Tap any drink to inquire or order directly via WhatsApp!
+                    </p>
+                </div>
+
+                <!-- Menu Filter Tabs -->
+                <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-4 mb-12" id="menu-tabs">
+                    <button data-filter="all" class="menu-tab active px-5 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 bg-forest-dark text-white shadow-md">
+                        ✨ All Drinks
+                    </button>
+                    <button data-filter="juice" class="menu-tab px-5 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 bg-white text-stone-700 hover:bg-stone-100 shadow-sm">
+                        🍊 Fresh Juices
+                    </button>
+                    <button data-filter="shake" class="menu-tab px-5 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 bg-white text-stone-700 hover:bg-stone-100 shadow-sm">
+                        🥤 Thick Shakes
+                    </button>
+                    <button data-filter="coffee" class="menu-tab px-5 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 bg-white text-stone-700 hover:bg-stone-100 shadow-sm">
+                        ☕ Cold Coffee
+                    </button>
+                </div>
+
+                <!-- Drinks Grid -->
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8" id="menu-items-grid">
+                    
+                    <!-- Item 1: Fresh Fruit Juices -->
+                    <div class="menu-item category-juice bg-white rounded-3xl overflow-hidden shadow-soft border border-stone-100 hover:shadow-xl transition-all duration-300 flex flex-col group">
+                        <div class="relative h-56 overflow-hidden bg-stone-100">
+                            <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=800&q=80" 
+                                 alt="Glass of fresh fruit juice with ice and mint" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 loading="lazy">
+                            <span class="absolute top-3 left-3 bg-orange-fruit text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+                                Fresh Juice
+                            </span>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow justify-between space-y-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-forest-dark font-serif mb-1">Fresh Fruit Juices</h3>
+                                <p class="text-stone-600 text-sm">Pure, freshly extracted fruit juices with no artificial colors or additives.</p>
+                            </div>
+                            <div class="pt-2 border-t border-stone-100 flex items-center justify-between">
+                                <span class="text-xs font-semibold text-stone-500">Served Chilled</span>
+                                <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20I%20would%20like%20to%20ask%20about%20Fresh%20Fruit%20Juices." 
+                                   target="_blank" 
+                                   class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-sm">
+                                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                                    <span>Ask us on WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: Seasonal Fruit Juices -->
+                    <div class="menu-item category-juice bg-white rounded-3xl overflow-hidden shadow-soft border border-stone-100 hover:shadow-xl transition-all duration-300 flex flex-col group">
+                        <div class="relative h-56 overflow-hidden bg-stone-100">
+                            <img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b7?auto=format&fit=crop&w=800&q=80" 
+                                 alt="Refreshing seasonal fruit juice in glass" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 loading="lazy">
+                            <span class="absolute top-3 left-3 bg-orange-fruit text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+                                Seasonal
+                            </span>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow justify-between space-y-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-forest-dark font-serif mb-1">Seasonal Fruit Juices</h3>
+                                <p class="text-stone-600 text-sm">Crafted using naturally ripe seasonal fruits at peak sweetness.</p>
+                            </div>
+                            <div class="pt-2 border-t border-stone-100 flex items-center justify-between">
+                                <span class="text-xs font-semibold text-stone-500">100% Natural</span>
+                                <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20What%20Seasonal%20Fruit%20Juices%20do%20you%20have%20today?" 
+                                   target="_blank" 
+                                   class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-sm">
+                                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                                    <span>Ask us on WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3: Refreshing Juice Blends -->
+                    <div class="menu-item category-juice bg-white rounded-3xl overflow-hidden shadow-soft border border-stone-100 hover:shadow-xl transition-all duration-300 flex flex-col group">
+                        <div class="relative h-56 overflow-hidden bg-stone-100">
+                            <img src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?auto=format&fit=crop&w=800&q=80" 
+                                 alt="Colorful fruit juice blend with ice" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 loading="lazy">
+                            <span class="absolute top-3 left-3 bg-orange-fruit text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+                                Special Blend
+                            </span>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow justify-between space-y-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-forest-dark font-serif mb-1">Refreshing Juice Blends</h3>
+                                <p class="text-stone-600 text-sm">Signature multi-fruit twist blends designed to invigorate your day.</p>
+                            </div>
+                            <div class="pt-2 border-t border-stone-100 flex items-center justify-between">
+                                <span class="text-xs font-semibold text-stone-500">Energy Boost</span>
+                                <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20I%20would%20like%20to%20know%20more%20about%20your%20Refreshing%20Juice%20Blends." 
+                                   target="_blank" 
+                                   class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-sm">
+                                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                                    <span>Ask us on WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4: Chocolate Shake -->
+                    <div class="menu-item category-shake bg-white rounded-3xl overflow-hidden shadow-soft border border-stone-100 hover:shadow-xl transition-all duration-300 flex flex-col group">
+                        <div class="relative h-56 overflow-hidden bg-stone-100">
+                            <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80" 
+                                 alt="Rich chocolate milkshake topped with whipped cream" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 loading="lazy">
+                            <span class="absolute top-3 left-3 bg-amber-700 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+                                Thick Shake
+                            </span>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow justify-between space-y-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-forest-dark font-serif mb-1">Chocolate Shake</h3>
+                                <p class="text-stone-600 text-sm">Indulgent chocolate shake blended with rich milk and chocolate drizzle.</p>
+                            </div>
+                            <div class="pt-2 border-t border-stone-100 flex items-center justify-between">
+                                <span class="text-xs font-semibold text-stone-500">Rich & Creamy</span>
+                                <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20I%20want%20to%20order%20the%20Chocolate%20Shake." 
+                                   target="_blank" 
+                                   class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-sm">
+                                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                                    <span>Ask us on WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 5: Vanilla & Strawberry Shake -->
+                    <div class="menu-item category-shake bg-white rounded-3xl overflow-hidden shadow-soft border border-stone-100 hover:shadow-xl transition-all duration-300 flex flex-col group">
+                        <div class="relative h-56 overflow-hidden bg-stone-100">
+                            <img src="https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80" 
+                                 alt="Strawberry and Vanilla Milkshake with strawberry garnish" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 loading="lazy">
+                            <span class="absolute top-3 left-3 bg-pink-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+                                Classic Shake
+                            </span>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow justify-between space-y-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-forest-dark font-serif mb-1">Vanilla & Strawberry Shake</h3>
+                                <p class="text-stone-600 text-sm">Smooth classic vanilla or luscious strawberry shakes made to perfection.</p>
+                            </div>
+                            <div class="pt-2 border-t border-stone-100 flex items-center justify-between">
+                                <span class="text-xs font-semibold text-stone-500">Sweet Classic</span>
+                                <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20Tell%20me%20about%20your%20Vanilla%20and%20Strawberry%20Shakes." 
+                                   target="_blank" 
+                                   class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-sm">
+                                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                                    <span>Ask us on WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 6: Special Thick Shakes -->
+                    <div class="menu-item category-shake bg-white rounded-3xl overflow-hidden shadow-soft border border-stone-100 hover:shadow-xl transition-all duration-300 flex flex-col group">
+                        <div class="relative h-56 overflow-hidden bg-stone-100">
+                            <img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?auto=format&fit=crop&w=800&q=80" 
+                                 alt="Gourmet special thick milkshake with toppings" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 loading="lazy">
+                            <span class="absolute top-3 left-3 bg-purple-700 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+                                Chef Special
+                            </span>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow justify-between space-y-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-forest-dark font-serif mb-1">Special Thick Shakes</h3>
+                                <p class="text-stone-600 text-sm">Ultra-thick gourmet shakes blended with ice cream and delight crunchies.</p>
+                            </div>
+                            <div class="pt-2 border-t border-stone-100 flex items-center justify-between">
+                                <span class="text-xs font-semibold text-stone-500">Top Seller</span>
+                                <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20What%20are%20your%20Special%20Thick%20Shake%20flavors?" 
+                                   target="_blank" 
+                                   class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-sm">
+                                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                                    <span>Ask us on WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 7: Classic Cold Coffee -->
+                    <div class="menu-item category-coffee bg-white rounded-3xl overflow-hidden shadow-soft border border-stone-100 hover:shadow-xl transition-all duration-300 flex flex-col group">
+                        <div class="relative h-56 overflow-hidden bg-stone-100">
+                            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80" 
+                                 alt="Chilled classic iced coffee glass with ice cubes" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 loading="lazy">
+                            <span class="absolute top-3 left-3 bg-amber-900 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+                                Cold Coffee
+                            </span>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow justify-between space-y-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-forest-dark font-serif mb-1">Classic Cold Coffee</h3>
+                                <p class="text-stone-600 text-sm">Rich brewed coffee blended smooth with cold milk and ice.</p>
+                            </div>
+                            <div class="pt-2 border-t border-stone-100 flex items-center justify-between">
+                                <span class="text-xs font-semibold text-stone-500">Chilled Boost</span>
+                                <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20I%20want%20to%20ask%20about%20Classic%20Cold%20Coffee." 
+                                   target="_blank" 
+                                   class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-sm">
+                                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                                    <span>Ask us on WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 8: Creamy Cold Coffee -->
+                    <div class="menu-item category-coffee bg-white rounded-3xl overflow-hidden shadow-soft border border-stone-100 hover:shadow-xl transition-all duration-300 flex flex-col group">
+                        <div class="relative h-56 overflow-hidden bg-stone-100">
+                            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80" 
+                                 alt="Creamy layered cold coffee with drizzle" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 loading="lazy">
+                            <span class="absolute top-3 left-3 bg-amber-800 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+                                Extra Creamy
+                            </span>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow justify-between space-y-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-forest-dark font-serif mb-1">Creamy Cold Coffee</h3>
+                                <p class="text-stone-600 text-sm">Velvety cold coffee loaded with scoop of ice cream and cocoa drizzle.</p>
+                            </div>
+                            <div class="pt-2 border-t border-stone-100 flex items-center justify-between">
+                                <span class="text-xs font-semibold text-stone-500">Customer Favorite</span>
+                                <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20I%20want%20to%20order%20the%20Creamy%20Cold%20Coffee." 
+                                   target="_blank" 
+                                   class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-sm">
+                                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                                    <span>Ask us on WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 9: Café-Style Iced Coffee -->
+                    <div class="menu-item category-coffee bg-white rounded-3xl overflow-hidden shadow-soft border border-stone-100 hover:shadow-xl transition-all duration-300 flex flex-col group">
+                        <div class="relative h-56 overflow-hidden bg-stone-100">
+                            <img src="https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&w=800&q=80" 
+                                 alt="Café style handcrafted iced coffee glass" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 loading="lazy">
+                            <span class="absolute top-3 left-3 bg-stone-900 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+                                Artisanal
+                            </span>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow justify-between space-y-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-forest-dark font-serif mb-1">Café-Style Iced Coffee</h3>
+                                <p class="text-stone-600 text-sm">Premium espresso shot poured over condensed milk & ice cubes.</p>
+                            </div>
+                            <div class="pt-2 border-t border-stone-100 flex items-center justify-between">
+                                <span class="text-xs font-semibold text-stone-500">Strong & Smooth</span>
+                                <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20I%20want%20to%20ask%20about%20Cafe-style%20Iced%20Coffee." 
+                                   target="_blank" 
+                                   class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-sm">
+                                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                                    <span>Ask us on WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="py-12 bg-gradient-to-r from-forest-dark to-forest-mid text-white">
+            <div class="max-w-5xl mx-auto px-4 lg:px-8 text-center space-y-6">
+                <span class="bg-amber-fruit/20 text-amber-fruit text-xs font-bold tracking-widest uppercase px-3.5 py-1.5 rounded-full inline-block">
+                    Interactive Beverage Finder
+                </span>
+                <h2 class="text-2xl sm:text-4xl font-extrabold font-serif">Not sure what to sip today?</h2>
+                <p class="text-stone-200 text-sm sm:text-base max-w-xl mx-auto">
+                    Select your current mood and let us match you with the perfect drink at Zest Heaven!
+                </p>
+
+                <div class="flex flex-wrap justify-center gap-3 pt-2">
+                    <button onclick="recommendDrink('energizing')" class="px-5 py-2.5 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/20 font-semibold text-sm transition-all flex items-center gap-2">
+                        ⚡ Need Energy
+                    </button>
+                    <button onclick="recommendDrink('sweet')" class="px-5 py-2.5 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/20 font-semibold text-sm transition-all flex items-center gap-2">
+                        🍨 Sweet Craving
+                    </button>
+                    <button onclick="recommendDrink('caffeine')" class="px-5 py-2.5 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/20 font-semibold text-sm transition-all flex items-center gap-2">
+                        ☕ Coffee Hit
+                    </button>
+                </div>
+
+                <!-- Match Result Box -->
+                <div id="drink-recommendation" class="hidden mt-6 p-6 glass-panel rounded-3xl text-forest-dark max-w-md mx-auto text-center space-y-3">
+                    <p class="text-xs uppercase tracking-widest font-bold text-lime-accent" id="rec-tag"></p>
+                    <h3 class="text-2xl font-bold font-serif text-forest-dark" id="rec-title"></h3>
+                    <p class="text-stone-600 text-sm" id="rec-desc"></p>
+                    <a id="rec-btn" href="#" target="_blank" class="inline-flex items-center justify-center gap-2 w-full py-3 bg-emerald-600 text-white rounded-xl font-bold text-sm shadow-md">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>Order This On WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us" class="py-20 bg-stone-100/60 border-b border-stone-200/80">
+            <div class="max-w-7xl mx-auto px-4 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                    <span class="text-xs font-bold tracking-widest uppercase text-lime-accent bg-lime-accent/10 px-3.5 py-1.5 rounded-full inline-block">
+                        Why Choose Us
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-forest-dark font-serif">
+                        Why Visit Zest Heaven?
+                    </h2>
+                    <p class="text-stone-600 text-base sm:text-lg">
+                        We blend taste, hygiene, and warmth to create Jhansi’s favorite hangout experience.
+                    </p>
+                </div>
+
+                <!-- 4 Benefits Grid -->
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Benefit 1 -->
+                    <div class="bg-white p-6 rounded-3xl shadow-soft border border-stone-100 hover:shadow-lg transition-all duration-300 flex flex-col items-start">
+                        <div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-2xl mb-5">
+                            🍓
+                        </div>
+                        <h3 class="text-lg font-bold text-forest-dark font-serif mb-2">Fresh Flavours</h3>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            Refreshing drinks packed with authentic, delicious flavor made with pristine ingredients.
+                        </p>
+                    </div>
+
+                    <!-- Benefit 2 -->
+                    <div class="bg-white p-6 rounded-3xl shadow-soft border border-stone-100 hover:shadow-lg transition-all duration-300 flex flex-col items-start">
+                        <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center text-2xl mb-5">
+                            ✨
+                        </div>
+                        <h3 class="text-lg font-bold text-forest-dark font-serif mb-2">Perfect Hangout</h3>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            A relaxed, vibrant spot to chill with friends and enjoy your favorite sip.
+                        </p>
+                    </div>
+
+                    <!-- Benefit 3 -->
+                    <div class="bg-white p-6 rounded-3xl shadow-soft border border-stone-100 hover:shadow-lg transition-all duration-300 flex flex-col items-start">
+                        <div class="w-14 h-14 rounded-2xl bg-blue-500/10 text-blue-600 flex items-center justify-center text-2xl mb-5">
+                            📍
+                        </div>
+                        <h3 class="text-lg font-bold text-forest-dark font-serif mb-2">Great Location</h3>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            Conveniently located right in front of Law College, Bundelkhand University, Jhansi.
+                        </p>
+                    </div>
+
+                    <!-- Benefit 4 -->
+                    <div class="bg-white p-6 rounded-3xl shadow-soft border border-stone-100 hover:shadow-lg transition-all duration-300 flex flex-col items-start">
+                        <div class="w-14 h-14 rounded-2xl bg-pink-500/10 text-pink-600 flex items-center justify-center text-2xl mb-5">
+                            🌈
+                        </div>
+                        <h3 class="text-lg font-bold text-forest-dark font-serif mb-2">Inclusive & Friendly</h3>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            A safe, respectful, and welcoming environment for everyone in our community.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="location" class="py-20 bg-cream">
+            <div class="max-w-7xl mx-auto px-4 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto space-y-4 mb-14">
+                    <span class="text-xs font-bold tracking-widest uppercase text-orange-fruit bg-orange-fruit/10 px-3.5 py-1.5 rounded-full inline-block">
+                        Visit Us
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-forest-dark font-serif">
+                        Find Zest Heaven
+                    </h2>
+                    <p class="text-stone-600 text-base sm:text-lg">
+                        Easily accessible right opposite Law College, Bundelkhand University, Jhansi.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-12 gap-8 items-stretch">
+                    
+                    <!-- Location Info Card -->
+                    <div class="lg:col-span-5 bg-white p-8 rounded-3xl shadow-soft border border-stone-100 flex flex-col justify-between space-y-6">
+                        <div class="space-y-6">
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 rounded-2xl bg-orange-fruit/10 text-orange-fruit flex items-center justify-center text-xl flex-shrink-0 mt-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-forest-dark text-lg font-serif mb-1">Address</h3>
+                                    <p class="text-stone-600 text-sm leading-relaxed">
+                                        In front of Law College, Bundelkhand University, Jhansi, Uttar Pradesh 284128, India
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 rounded-2xl bg-forest-mid/10 text-forest-mid flex items-center justify-center text-xl flex-shrink-0 mt-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-forest-dark text-lg font-serif mb-1">Phone Number</h3>
+                                    <p class="text-stone-600 text-sm">
+                                        <a href="tel:07339980606" class="hover:text-forest-dark font-medium underline">073399 80606</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center text-xl flex-shrink-0 mt-1">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-forest-dark text-lg font-serif mb-1">WhatsApp</h3>
+                                    <p class="text-stone-600 text-sm">
+                                        Quick order & inquiry available on WhatsApp
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 rounded-2xl bg-purple-500/10 text-purple-600 flex items-center justify-center text-xl flex-shrink-0 mt-1">
+                                    <span class="text-xl">🌈</span>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-forest-dark text-lg font-serif mb-1">Atmosphere</h3>
+                                    <p class="text-stone-600 text-sm">
+                                        LGBTQ+ Friendly & Student Welcoming
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="grid grid-cols-2 gap-3 pt-4 border-t border-stone-100">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Law+College+Bundelkhand+University+Jhansi+Uttar+Pradesh" 
+                               target="_blank" 
+                               rel="noopener noreferrer" 
+                               class="py-3 px-4 bg-forest-dark hover:bg-forest-mid text-white rounded-xl font-bold text-xs sm:text-sm text-center flex items-center justify-center gap-2 shadow-sm transition-all">
+                                <i class="fa-solid fa-diamond-turn-right"></i>
+                                <span>Get Directions</span>
+                            </a>
+                            <a href="tel:07339980606" 
+                               class="py-3 px-4 bg-stone-100 hover:bg-stone-200 text-forest-dark rounded-xl font-bold text-xs sm:text-sm text-center flex items-center justify-center gap-2 transition-all">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>Call Now</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Map Embed Container -->
+                    <div class="lg:col-span-7 rounded-3xl overflow-hidden shadow-soft border border-stone-200 min-h-[350px] relative bg-stone-200">
+                        <iframe 
+                            title="Zest Heaven Location Map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.825120392305!2d78.53759231501438!3d25.44327098378292!2m3!1f0!0f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397776d5427d1421%3A0x7d2cb9e8f192b1b5!2sBundelkhand%20University%2C%20Jhansi%2C%20Uttar%20Pradesh%20284128!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+                            class="w-full h-full min-h-[380px] border-0" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="py-16 bg-gradient-to-br from-emerald-600 via-emerald-700 to-teal-800 text-white relative overflow-hidden">
+            <div class="max-w-5xl mx-auto px-4 lg:px-8 text-center relative z-10 space-y-6">
+                <div class="w-16 h-16 rounded-full bg-white/10 mx-auto flex items-center justify-center text-3xl">
+                    💬
+                </div>
+                <h2 class="text-3xl sm:text-5xl font-extrabold font-serif">Craving Something Refreshing?</h2>
+                <p class="text-emerald-100 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+                    Have a question about our drinks? Want to check today’s fresh special juice? Chat with Zest Heaven directly on WhatsApp!
+                </p>
+                <div>
+                    <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20juices,%20shakes%20and%20cold%20coffee." 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="inline-flex items-center gap-3 bg-white text-emerald-800 hover:bg-stone-100 font-extrabold px-8 py-4 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 text-lg">
+                        <i class="fa-brands fa-whatsapp text-2xl text-emerald-600"></i>
+                        <span>WhatsApp Us (+91 73399 80606)</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-cream">
+            <div class="max-w-4xl mx-auto px-4 lg:px-8">
+                <div class="bg-white p-8 sm:p-10 rounded-3xl shadow-soft border border-stone-200 text-center space-y-6">
+                    <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-forest-dark text-amber-fruit font-serif font-bold text-2xl">
+                        Z
+                    </div>
+                    <h2 class="text-3xl font-extrabold text-forest-dark font-serif">Zest Heaven</h2>
+                    <p class="text-stone-500 font-medium -mt-4">Fresh Sips. Delicious Moments.</p>
+
+                    <div class="grid sm:grid-cols-2 gap-4 text-stone-700 text-sm max-w-2xl mx-auto pt-2">
+                        <div class="p-3 bg-stone-50 rounded-2xl text-left flex items-center gap-3">
+                            <i class="fa-solid fa-location-dot text-orange-fruit text-lg"></i>
+                            <span>In front of Law College, Bundelkhand University, Jhansi, UP 284128</span>
+                        </div>
+                        <div class="p-3 bg-stone-50 rounded-2xl text-left flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-forest-dark text-lg"></i>
+                            <span>073399 80606</span>
+                        </div>
+                        <div class="p-3 bg-stone-50 rounded-2xl text-left flex items-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-emerald-600 text-lg"></i>
+                            <span>WhatsApp Ordering Available</span>
+                        </div>
+                        <div class="p-3 bg-stone-50 rounded-2xl text-left flex items-center gap-3">
+                            <span class="text-lg">🌈</span>
+                            <span>LGBTQ+ Friendly & Welcoming</span>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap justify-center gap-3 pt-4">
+                        <a href="tel:07339980606" class="px-6 py-3 bg-forest-dark hover:bg-forest-mid text-white rounded-xl font-bold text-sm transition-all shadow-sm">
+                            <i class="fa-solid fa-phone mr-2"></i> Call Us
+                        </a>
+                        <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20juices,%20shakes%20and%20cold%20coffee." 
+                           target="_blank" 
+                           class="px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-bold text-sm transition-all shadow-sm">
+                            <i class="fa-brands fa-whatsapp mr-2"></i> WhatsApp
+                        </a>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Law+College+Bundelkhand+University+Jhansi" 
+                           target="_blank" 
+                           class="px-6 py-3 bg-stone-200 hover:bg-stone-300 text-stone-800 rounded-xl font-bold text-sm transition-all">
+                            <i class="fa-solid fa-map-pin mr-2"></i> Get Directions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-forest-dark text-stone-300 py-16 border-t border-forest-mid">
+        <div class="max-w-7xl mx-auto px-4 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-white/10">
+                
+                <!-- Footer Brand Column -->
+                <div class="md:col-span-5 space-y-4">
+                    <div class="flex items-center gap-2">
+                        <div class="w-9 h-9 rounded-full bg-gradient-to-tr from-amber-500 to-lime-bright flex items-center justify-center text-forest-dark font-bold">
+                            Z
+                        </div>
+                        <span class="font-bold text-2xl text-white font-serif tracking-tight">Zest Heaven</span>
+                    </div>
+                    <p class="text-amber-fruit text-sm italic font-serif">“Fresh Sips. Delicious Moments.”</p>
+                    <p class="text-stone-400 text-sm max-w-sm leading-relaxed">
+                        Come have some great and delicious juices, shakes and cold coffee. Handcrafted with passion in Jhansi.
+                    </p>
+                    <div class="pt-2">
+                        <span class="inline-flex items-center gap-2 text-xs font-semibold px-3 py-1.5 rounded-full bg-white/10 text-pink-300 border border-white/10">
+                            <span>🌈 LGBTQ+ Friendly Cafe</span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="md:col-span-3 space-y-3">
+                    <h3 class="text-white font-bold text-base font-serif">Quick Links</h3>
+                    <ul class="space-y-2 text-sm text-stone-400">
+                        <li><a href="#home" class="hover:text-amber-fruit transition-colors">Home</a></li>
+                        <li><a href="#about" class="hover:text-amber-fruit transition-colors">About Zest Heaven</a></li>
+                        <li><a href="#menu" class="hover:text-amber-fruit transition-colors">Drinks Menu</a></li>
+                        <li><a href="#why-us" class="hover:text-amber-fruit transition-colors">Why Visit Us</a></li>
+                        <li><a href="#location" class="hover:text-amber-fruit transition-colors">Location & Map</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Summary -->
+                <div class="md:col-span-4 space-y-3">
+                    <h3 class="text-white font-bold text-base font-serif">Get In Touch</h3>
+                    <ul class="space-y-2.5 text-sm text-stone-400">
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-location-dot text-amber-fruit mt-1"></i>
+                            <span>In front of Law College, Bundelkhand University, Jhansi, UP 284128</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i class="fa-solid fa-phone text-amber-fruit"></i>
+                            <a href="tel:07339980606" class="hover:text-white">073399 80606</a>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+                            <a href="https://wa.me/917339980606" target="_blank" class="hover:text-white">WhatsApp Chat Available</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
+                <p>© 2026 Zest Heaven. All rights reserved.</p>
+                <p>Designed with ❤️ in Jhansi, Uttar Pradesh</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-stone-200 py-2.5 px-4 md:hidden shadow-lg">
+        <div class="grid grid-cols-3 gap-2 max-w-md mx-auto">
+            <a href="tel:07339980606" class="flex flex-col items-center justify-center text-stone-700 hover:text-forest-dark text-xs font-semibold py-1">
+                <i class="fa-solid fa-phone text-lg mb-0.5 text-forest-dark"></i>
+                <span>Call Now</span>
+            </a>
+            <a href="https://wa.me/917339980606?text=Hi%20Zest%20Heaven!%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20juices,%20shakes%20and%20cold%20coffee." 
+               target="_blank" 
+               class="flex flex-col items-center justify-center bg-emerald-600 text-white rounded-xl text-xs font-bold py-1.5 shadow-sm">
+                <i class="fa-brands fa-whatsapp text-lg mb-0.5"></i>
+                <span>WhatsApp</span>
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Law+College+Bundelkhand+University+Jhansi" 
+               target="_blank" 
+               class="flex flex-col items-center justify-center text-stone-700 hover:text-forest-dark text-xs font-semibold py-1">
+                <i class="fa-solid fa-map-location-dot text-lg mb-0.5 text-orange-fruit"></i>
+                <span>Directions</span>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Mobile Menu Toggle Logic
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIcon = document.getElementById('menu-icon');
+            const mobileLinks = document.querySelectorAll('.mobile-link');
+
+            if (mobileMenuBtn) {
+                mobileMenuBtn.addEventListener('click', () => {
+                    const isHidden = mobileMenu.classList.contains('hidden');
+                    if (isHidden) {
+                        mobileMenu.classList.remove('hidden');
+                        menuIcon.classList.remove('fa-bars');
+                        menuIcon.classList.add('fa-xmark');
+                    } else {
+                        mobileMenu.classList.add('hidden');
+                        menuIcon.classList.remove('fa-xmark');
+                        menuIcon.classList.add('fa-bars');
+                    }
+                });
+            }
+
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                    if (menuIcon) {
+                        menuIcon.classList.remove('fa-xmark');
+                        menuIcon.classList.add('fa-bars');
+                    }
+                });
+            });
+
+            // Menu Filter Tab Switching
+            const tabs = document.querySelectorAll('.menu-tab');
+            const menuItems = document.querySelectorAll('.menu-item');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    // Update active tab styles
+                    tabs.forEach(t => {
+                        t.classList.remove('bg-forest-dark', 'text-white', 'shadow-md');
+                        t.classList.add('bg-white', 'text-stone-700', 'shadow-sm');
+                    });
+                    tab.classList.remove('bg-white', 'text-stone-700', 'shadow-sm');
+                    tab.classList.add('bg-forest-dark', 'text-white', 'shadow-md');
+
+                    const filter = tab.getAttribute('data-filter');
+
+                    menuItems.forEach(item => {
+                        if (filter === 'all') {
+                            item.style.display = 'flex';
+                        } else {
+                            if (item.classList.contains(`category-${filter}`)) {
+                                item.style.display = 'flex';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        }
+                    });
+                });
+            });
+
+            // Header Background Shadow on Scroll
+            const header = document.getElementById('main-header');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 30) {
+                    header.classList.add('shadow-md');
+                } else {
+                    header.classList.remove('shadow-md');
+                }
+            });
+        });
+
+        // Interactive Drink Recommendation Function
+        function recommendDrink(mood) {
+            const box = document.getElementById('drink-recommendation');
+            const tag = document.getElementById('rec-tag');
+            const title = document.getElementById('rec-title');
+            const desc = document.getElementById('rec-desc');
+            const btn = document.getElementById('rec-btn');
+
+            let recData = {};
+
+            if (mood === 'energizing') {
+                recData = {
+                    tag: 'Fresh Energy Match',
+                    title: 'Refreshing Juice Blend 🍊',
+                    desc: 'Packed with 100% natural fruit energy to power you through your day!',
+                    query: 'Hi Zest Heaven! I want to try your Refreshing Juice Blend.'
+                };
+            } else if (mood === 'sweet') {
+                recData = {
+                    tag: 'Decadent Craving Match',
+                    title: 'Special Thick Shake 🥤',
+                    desc: 'Rich, luscious gourmet shake topped with creamy ice cream goodness.',
+                    query: 'Hi Zest Heaven! I want to order a Special Thick Shake.'
+                };
+            } else if (mood === 'caffeine') {
+                recData = {
+                    tag: 'Chill Caffeine Boost',
+                    title: 'Creamy Cold Coffee ☕',
+                    desc: 'Blended cold espresso with silky cream and chocolate swirl.',
+                    query: 'Hi Zest Heaven! I want to order a Creamy Cold Coffee.'
+                };
+            }
+
+            tag.textContent = recData.tag;
+            title.textContent = recData.title;
+            desc.textContent = recData.desc;
+            btn.href = `https://wa.me/917339980606?text=${encodeURIComponent(recData.query)}`;
+
+            box.classList.remove('hidden');
+            box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+    </script>
+</body>
+</html>
